@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bubble_bobble.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fPoint.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCenter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bubble_bobble.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fPoint.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCenter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="bubble_bobble.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bubble_bobble.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="ost\01. Title, Extend.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\02. Credit Inserted.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\03. Introduction. Main Theme.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\04. Extend Bonus Music.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\05. Main Theme.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\06. Hurry!. Main Theme (faster).mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\07. Bonus Game.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\08. Main Theme (faster).mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\09. Skull Monsuke appears.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\10. Secret Room.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\11. False Ending.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\12. Super Drunk.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\13. All Clear.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\14. Halley%27s Comet.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\15. Real Ending.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\16. Name Regist.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\17. Game Over.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\18. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\19. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\20. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\21. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\22. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\23. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\24. Halley%27s Comet.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\25. Jar of Super Drunk.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\26. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\27. Extend bubble.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\28. Skull Monsuke appears.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\29. Jar of Drunk.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\30. Big food.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\31. All Cleared.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\32. Invader%27s lazer.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\33. Water bubble.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\34. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\35. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\36. Fire bubble.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\37. Dynamite.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\38. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\39. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\40. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\41. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\42. Bell.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\43. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\44. Title, Extend.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\45. Sound.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\46. Jump.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\47. Thunder bubble.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="ost\48. Credit inserted.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
